@@ -6,11 +6,11 @@ from discord.ext import commands
 from re import search
 import threading
 
-token == OTQ0MDczNjQzMzA1MDg3MDA2.Yg8TGA.Wwy4a3tEL2VUsm0lHW2eIDtj98Q
+token = OTQ0MDczNjQzMzA1MDg3MDA2.Yg8TGA.Wwy4a3tEL2VUsm0lHW2eIDtj98Q
 
 
 
-prefix == "+"
+prefix = "+"
 
 bot = commands.Bot(command_prefix=prefix,help_command=None)
 threading = ThreadPoolExecutor(max_workers=int(100000000))
