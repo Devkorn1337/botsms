@@ -207,7 +207,7 @@ async def on_connect():
 @bot.command()
 async def sms(ctx, phone, amount:int):
     
-    if (amount < 301):
+    if (amount < 151):
     	
       embes = discord.Embed(title="Flood SmS", description="Bot by : Hee",color=0xff4612)
       embes.add_field(name="กำลังยิงไปที่เบอร์",value=phone)
