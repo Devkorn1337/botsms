@@ -220,7 +220,7 @@ async def sms(ctx, phone, amount:int):
     
       BBot(phone,amount)
     else:
-    	await ctx.channel.send("ได้ไม่เกิน300นะครับ")
+    	await ctx.channel.send("ได้ไม่เกิน150นะครับ")
     
 
 
